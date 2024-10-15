@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Turistinha</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#destino">Destinos</a></li>
+            <li><a href="#dicas">Dicas</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contato">
+            <h2>Destinos</h2>
+            <div class="destino" onclick="mostrarDetalhes('')"><a href="pages/Mongua.html" class="Monguagua"><img src="img/monguagua.png" alt="monguagua" width="370"><br>Monguagua</a></div>
+            <div class="destino" onclick="mostrarDetalhes('')"><img src="img/ilhabela.png" alt="ilhabela" width="370"><br>Ilha Bela</div>
+            <div class="destino" onclick="mostrarDetalhes('')"><img src="img/fernando de noronha.png" alt="noronha" width="370"><br>Fernando de noronha</div>
+            
+        </section>
+<section id="dicas">
+    <h2>Dicas de Viagem</h2>
+    <p id="dicas de viagem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ad commodi autem, magnam aut repudiandae quisquam nulla atque, consectetur laudantium impedit veritatis 
+        voluptatum voluptatem cumque corrupti minima unde quidem expedita?</p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <form>
+        <input type="text" placeholder="Seu Nome" required>
+        <input type="text" placeholder="Seu Email" required>
+        <textarea placeholder="Sua Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+  </section>
+</main>
+<footer>
+    <p>&copy;2024 turismo</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
